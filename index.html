@@ -1,0 +1,108 @@
+<h1 style="color:white">TEST OK</h1>
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For You 🤍</title>
+  <style>
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Helvetica Neue',Arial;background:#0b0b0c;color:#fff;overflow-x:hidden}
+    .page{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px}
+    .card{max-width:520px;width:100%;text-align:center}
+    img{width:100%;border-radius:18px;opacity:0;transform:scale(0.98);transition:opacity 1.2s ease,transform 1.2s ease}
+    .show img{opacity:1;transform:scale(1)}
+    h1,h2,p{margin:12px 0}
+    h1{font-size:28px;font-weight:700}
+    h2{font-size:22px;font-weight:600}
+    p{font-size:16px;line-height:1.6;color:#e8e8ea}
+    .muted{opacity:.85}
+    .divider{height:16px}
+    .fade{opacity:0;transition:opacity 1.2s ease}
+    .show .fade{opacity:1}
+    .hidden{display:none}
+    audio{display:none}
+  </style>
+</head>
+<body><!-- PAGE 1 : Birthday --><section class="page" id="p1">
+  <div class="card">
+    <img src="photos/page1.jpg" alt="Birthday" />
+    <div class="divider"></div>
+    <h1 class="fade">Happy Birthday 🤍</h1>
+    <audio id="a1" src="songs/page1.mp3" autoplay loop></audio>
+  </div>
+</section><!-- PAGE 2 --><section class="page" id="p2">
+  <div class="card">
+    <img src="photos/page2.jpg" alt="Page 2" />
+    <h2 class="fade">My bby don ..</h2>
+    <audio id="a2" src="songs/page2.mp3" loop></audio>
+  </div>
+</section><!-- PAGE 3 --><section class="page" id="p3">
+  <div class="card">
+    <img src="photos/page3.jpg" alt="Page 3" />
+    <h2 class="fade">Rasmalai..</h2>
+    <audio id="a3" src="songs/page3.mp3" loop></audio>
+  </div>
+</section><!-- PAGE 4 --><section class="page" id="p4">
+  <div class="card">
+    <img src="photos/page4.jpg" alt="Page 4" />
+    <p class="fade muted">jb bhi Dekho jitna dekho utna kamm hai. or durr kyu khadi ho jaanemann idhr aao hum yha hai ...</p>
+    <audio id="a4" src="songs/page4.mp3" loop></audio>
+  </div>
+</section><!-- PAGE 5 : Shayari --><section class="page" id="p5">
+  <div class="card">
+    <img src="photos/page5.jpg" alt="Page 5" />
+    <p class="fade">~ Ek trf ~<br/><br/>Kya hai yeh ek trf , mai batata kya hai ,<br/>Sbka hona ek trf , ghrwalo or aapka hona ek trf ,<br/>Sbki backchodi ek trf ,<br/>Aapki baatein ( gossips) ek trf ,<br/>Marne k baad woh 4 kandhe ek trf ,<br/>Aapka shoulder ek trf,<br/>Sbka hona naah hona ek trf ,aapki godd me sar rakh k sona ek trf ,<br/>Kisi k saath hona naah hona ek trf , aapki baahon me hona ek trf ,<br/>Haath hazaar ho pr aapka hath pkdna ek trf ,<br/><br/>Sb ek trf , aapka pyaar ek trf ,<br/><br/>~ Ek trf ~</p>
+    <audio id="a5" src="songs/page5.mp3" loop></audio>
+  </div>
+</section><!-- PAGE 6 --><section class="page" id="p6">
+  <div class="card">
+    <img src="photos/page6.jpg" alt="Page 6" />
+    <h2 class="fade">Apradhi mahila 😌</h2>
+    <audio id="a6" src="songs/page6.mp3" loop></audio>
+  </div>
+</section><!-- PAGE 7 --><section class="page" id="p7">
+  <div class="card">
+    <img src="photos/page7.jpg" alt="Page 7" />
+    <h2 class="fade">Madam karina ji 🤍</h2>
+    <audio id="a7" src="songs/page7.mp3" loop></audio>
+  </div>
+</section><!-- PAGE 8 --><section class="page" id="p8">
+  <div class="card">
+    <img src="photos/page8.jpg" alt="Page 8" />
+    <p class="fade">Who are you ? , let me tell you who are you .....<br/><br/>You are the day ,you the night ,<br/><br/>You are the song, you are the rhymes,<br/>You are a sunset and sunrise ,<br/>You are my daal and my rice ,<br/>You looks always nice ,<br/><br/>You looking , fully loaded choco baar ,and you are my personal star ⭐</p>
+    <audio id="a8" src="songs/page8.mp3" loop></audio>
+  </div>
+</section><!-- PAGE 9 --><section class="page" id="p9">
+  <div class="card">
+    <img src="photos/page9.jpg" alt="Page 9" />
+    <p class="fade">tum ho toh sb acha<br/>Tum bdi si mai ek bachaa<br/>Na hai tum me ek bhi Kami tum achiii tunhara pyaar sacchaa<br/>Tum ho toh sb achaa</p>
+    <audio id="a9" src="songs/page9.mp3" loop></audio>
+  </div>
+</section><!-- PAGE 10 : Delayed Reveal --><section class="page" id="p10">
+  <div class="card">
+    <h2 class="fade">Shrimati ji ✨</h2>
+    <p class="fade">Naah koi tumsa pyaara naah koi tumsa hasi ,<br/>Chalo jb saath mere lgte ho zehr kati ,<br/>Pta ni kyu dur ho mujh se kya maari gyi hai tumhari mati ,<br/>Sun lo kaan khol k sirf mai tumhara pati or tum meri shrimati....</p>
+    <img id="lastImg" class="hidden" src="photos/page10.jpg" alt="Last" />
+    <audio id="a10" src="songs/page10.mp3" loop></audio>
+  </div>
+</section><script>
+  // reveal pages on scroll
+  const pages = document.querySelectorAll('.page');
+  const obs = new IntersectionObserver(entries=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting){
+        e.target.classList.add('show');
+        const aud = e.target.querySelector('audio');
+        if(aud){ aud.play().catch(()=>{}); }
+      }
+    })
+  },{threshold:0.4});
+  pages.forEach(p=>obs.observe(p));
+
+  // delayed reveal last photo
+  setTimeout(()=>{
+    const img=document.getElementById('lastImg');
+    if(img){ img.classList.remove('hidden'); img.style.opacity=0; setTimeout(()=>{img.style.transition='opacity 1.2s ease'; img.style.opacity=1;},50);} 
+  },5000);
+</script></body>
+</html>
